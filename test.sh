@@ -117,7 +117,8 @@ fi
 # Check if the upload was successful
 if [ $? -eq 0 ]; then
   echo "File uploaded successfully to $destination_path"
-  generate_shareable_link
+  generate_shareable_link 
+  
 else
   echo "Failed to upload the file."
   [ "$encryption" = true ] && rm "$file_path"  # Clean up the encrypted file if created
