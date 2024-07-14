@@ -20,7 +20,38 @@ This tool simplifies the process of uploading files to AWS S3. Users can encrypt
    - **Windows**: Install OpenSSL for Windows.
    - **macOS/Linux**: OpenSSL is typically pre-installed.
 
-## Setup
+## Setup 1
+
+1. **Download the Archive**
+
+   ```sh
+   wget https://github.com/Mekazstan/CloudUploader-CLI/releases/download/v1.0/cloud-storage-upload-tool.tar.gz
+
+2. **Extract the Archive**
+
+   ```sh
+   tar -xzvf cloud-storage-upload-tool.tar.gz
+    cd cloud-storage-upload-tool
+
+3. **Run the Installation Script**
+
+   ```sh
+   sudo ./install.sh
+
+4. **Create a `.env` File**
+
+   ```sh
+   cp .env.example .env
+   nano .env  # Edit the file to add your AWS credentials and bucket name
+
+5. **Add to `$PATH` (if necessary)**
+    If /usr/local/bin is not in your $PATH, you can add it by modifying your shell's configuration file (~/.bashrc, ~/.zshrc, etc.):
+   ```sh
+   echo 'export PATH=$PATH:/usr/local/bin' >> ~/.bashrc
+    source ~/.bashrc
+
+
+## Setup 2
 
 1. **Clone the repository**:
    ```sh
