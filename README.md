@@ -25,9 +25,9 @@ This tool simplifies the process of uploading files to AWS S3. Users can encrypt
 1. **Download the Archive**
 
    ```sh
-   wget https://github.com/user-attachments/files/16215497/cloud-storage-upload-tool.tar.gz
+   wget https://github.com/Mekazstan/CloudUploader-CLI/blob/main/cloud-storage-upload-tool.tar.gz
    or 
-   Query https://github.com/user-attachments/files/16215497/cloud-storage-upload-tool.tar.gz on your browser.
+   Query https://github.com/Mekazstan/CloudUploader-CLI/blob/main/cloud-storage-upload-tool.tar.gz on your browser.
 
 2. **Extract the Archive**
 
